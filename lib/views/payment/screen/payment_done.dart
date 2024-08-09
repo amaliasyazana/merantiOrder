@@ -75,10 +75,10 @@ class _DonePaymentState extends State<DonePayment> {
                     'Back to Home',
                     style: TextStyle(fontSize: 16),
                   ),
-                  style: ElevatedButton.styleFrom(
-                      primary: Color.fromRGBO(120, 196, 164, 1),
-                      fixedSize: const Size(200, 40),
-                      elevation: 0),
+                  // style: ElevatedButton.styleFrom(
+                  //     primary: Color.fromRGBO(120, 196, 164, 1),
+                  //     fixedSize: const Size(200, 40),
+                  //     elevation: 0),
                 ),
               ),
             ],

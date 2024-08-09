@@ -36,7 +36,7 @@ class SelectedMenuPage extends StatelessWidget {
             MenuAdmin selectedMenu = viewmodel.selectedmenus[index];
             return Card(
               child: ListTile(
-                leading: Image.network(viewmodel.selectedmenus[index].imageUrl),
+                //leading: Image.network(viewmodel.selectedmenus[index].imageUrl),
                 title: Text(selectedMenu.name),
                 subtitle: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,

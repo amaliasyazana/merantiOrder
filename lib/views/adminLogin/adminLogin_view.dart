@@ -26,10 +26,12 @@ class adminLoginView extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40),
               ),
               Container(
-                child: Image.network(
-                    'https://drive.google.com/uc?export=view&id=1qR0LYPV0g1sne5_mclmjucyOMznPufIs'),
-                height: 300,
-                width: 300,
+                 height: 300,
+                  width: 300,
+                  child: Image.asset(
+                    'images/logo.jpeg',
+                    fit: BoxFit.cover, // Adjust how the image fits inside the container
+                  ),
               ),
               const SizedBox(height: 10.0),
               TextFormField(

@@ -41,13 +41,13 @@ class DisplayMenuBody extends StatelessWidget {
               child: ListTile(
                 title: Row(
                   children: [
-                    Container(
-                      height: 100,
-                      width: 100,
-                      child: Image.network(
-                        viewmodel.menus[index].imageUrl,
-                      ),
-                    ),
+                    // Container(
+                    //   height: 100,
+                    //   width: 100,
+                    //   child: Image.network(
+                    //     viewmodel.menus[index].imageUrl,
+                    //   ),
+                    // ),
                     const SizedBox(
                       width: 20,
                     ),
